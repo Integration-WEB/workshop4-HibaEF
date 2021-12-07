@@ -11,6 +11,18 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'lacuna_italicregular';
+    src: url('../../lacuna-italic-webfont.eot');
+    src: url('../../lacuna-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../../lacuna-italic-webfont.woff2') format('woff2'),
+    url('../../lacuna-italic-webfont.woff') format('woff'),
+    url('../../lacuna-italic-webfont.ttf') format('truetype'),
+    url('../../lacuna-italic-webfont.svg#lacuna_italicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .navbar{
     background-color: #2d2b2b;
 }
@@ -28,9 +40,20 @@
 }
 .bi-circle-fill{
     color: #f0bd01 !important;
+    font-size: 1.75rem;
 }
 .section1{
     background-color: #3a0a1d;
+    height: 23.125rem;
+    padding-top: 7rem;
+}
+.section1 p{
+    font-family: 'lacuna_italicregular';
+}
+
+.section1-icon{
+    margin-left: 1.25rem;
+    margin-bottom: 1.625rem;
 }
 .acc{
     margin-right: 5rem;
@@ -45,27 +68,25 @@
     margin-right: 5rem;
 }
 
-.section1{
-    height: 23.125rem;
-    padding-top: 7rem;
-}
-.s21{
-    padding-top:  8.188rem;
-}
-.Fleure{
-    height: 39.688rem;
-}
+
+
+
 .fa-quote-left{
     color: #616161 !important;
+    font-size:3.125rem !important;
 }
-.more{
+.btn-more{
     margin-left: 25.438rem;
     background-color: #e4bc01;
-    width: 30rem;
+    width: 5.313rem;
+    border: 0;
 }
-.p2{
-    width: 31.25rem;
+.section2-bloc1{
+    padding-top: 8.188rem;
+    margin-bottom: 3.938rem;
+
 }
+
 .more1{
     margin-bottom: 3.938rem;
 }
@@ -77,6 +98,7 @@
 footer{
 height: 10.938rem;
 background-color: #e4bc01;
+    padding-top: 2.5rem;
 }
 div{
     color: #31332e;
@@ -87,13 +109,19 @@ p{
     font-family: 'League Gothic';
 }
 h2{
-    margin-top: 2.5rem;
+
     font-size: 20rem;
     font-family: 'League Gothic';
 }
-.bi{
-    border-radius: 50em;
-    color :#ffffff;
-    font-size: 2rem;
-    margin-left: 0.938rem;
+footer a{
+    background-color: white;
+
+
+    border-radius: 50%;
+    color :#e4bc01;
+
+   /* margin-left: 0.938rem;*/
+}
+footer a i{
+    margin: 4px;
 }
